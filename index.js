@@ -1,13 +1,5 @@
-console.log('sync 1');
+const shiftLeft = (array, target) => {
+  //
+};
 
-setTimeout(() => {
-  console.log('async 1');
-}, 3000);
-
-console.log('sync 2');
-
-setTimeout(() => {
-  console.log('async 2');
-}, 5000);
-
-console.log('sync 3');
+shiftLeft([1, 2, 3, 4], 4);
